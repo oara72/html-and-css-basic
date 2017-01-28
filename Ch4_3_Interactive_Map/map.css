@@ -1,0 +1,206 @@
+/*
+	New Perspectives on HTML and CSS
+	Tutorial 4
+	Case Problem 3
+
+	Trail Map Style Sheet          
+	Author: Oliver Rodriguez      #assignment 1
+	Date:   Nov 4, 2014
+
+	Filename:         map.css
+	Supporting Files: 
+
+*/
+
+nav, section, figure, figcaption * {    
+	display: block;                   /* assignment #4 */
+}
+
+section > figure > img > figcaption > time {
+	display: inline;                 /* assignment #5 */
+}
+
+body * {
+	margin: 0px;                     /* assignment #6 */
+	padding: 0px;
+	font-family: Verdana, Geneva, sans-serif;   /* assignment #7 */
+}
+
+#page {
+	background-color: rgb(255, 255, 128);       /* assignment #8a */
+	background-image: url(bluebar.png);
+	background-repeat: repeat-y;
+	
+	border-style: ridge;                       /* assignment #8b */
+	border-width: 15px;
+	border-color: rgb(70,76,222);
+	
+	border-radius: 50px 50px 50px 50px;         /* assignment #8c */
+	-moz-border-radius: 50px 50px 50px 50px;
+	-webkit-border-radius: 50px 50px 50px 50px;
+	
+	width: 900px;                              /* assignment #8d */
+	height: 750px;
+	
+	margin-top:10px;                           /* assignment #8e */
+   margin-bottom: 200px;
+   margin-right: auto;
+   margin-left: auto;
+	
+	position: relative;
+    
+}
+
+nav.vertical {
+	float: left;                                  /* assignment #9 */
+	width: 230px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: 20px;
+	margin-left: 20px;
+	line-height: 30px;
+}
+
+nav.vertical ul li {
+	list-style-type: none;
+
+}
+
+nav.vertical a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav.vertical a:hover {
+	color: yellow;
+	text-decoration: none;
+}
+
+section > #summary > #map {
+	float: left;                               /* assignment #10 */
+	margin-left: 30px;
+	width: 600px;
+}
+
+#summary > h1 {         
+	color: rgb(70,76,222);                     /* assignment #11 */
+	font-size: 24px;
+	font-weight: normal;
+	letter-spacing: 5px;
+	margin: 20px;
+}
+
+#summary > p {
+	margin: 10px;                          /* assignment #12 */
+}
+
+#map {
+	position: relative;                      /* assignment #13a */
+	 top: -45px;
+    left: 240px;
+    
+	background-color: #ffffff;               /* assignment #13b */
+	background-image: url(lpmap.jpg);
+	background-repeat: no-repeat;
+	
+	border-style: solid;								/* assignment #13c */
+	border-width: 1px;
+	border-color: #000000;
+	
+	float: left;										/* assignment #13d */
+	margin-left: 30px;
+	width: 600px;
+	height: 294px;
+}
+
+section > figure {
+	background-color: rgb(70,76,222);         /* assignment #14a */
+	color: #ffffff;                           /* assignment #14b */
+	width: 150px;                              /* assignment #14c */
+	
+	border-radius: 15px 15px 15px 15px;        /* assignment #14d */
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border: 0px solid #000000;
+	
+	position: absolute;                 /* assignment #14e */
+	z-index: 1;								  /* assignment #14f */
+	clip: rect(0px, 20px, 20px, 0px);   /* assignment #14g */
+}
+
+section > figure:hover {
+
+	position: absolute;                /* assignment #15 */
+	z-index: 2;
+	clip:auto;
+}
+
+figcaption {
+	color: #ffffff;           /* assignment #16 */
+	font-size: 12px;
+	margin: 10px;
+}
+
+figcaption > time {
+	color: yellow;            /* assignment #17 */
+}
+
+#point0 {
+	position: absolute;       /* assignment #18 */
+	top: 60px;
+	left: 560px;
+}
+
+#point1 {
+	position: absolute;
+	top: 90px;
+	left: 277px;
+}
+
+#point2 {
+	position: absolute;
+	top: 0px;
+	left: 175px;
+}
+
+#point3 {
+	position: absolute;
+	top: 115px;
+	left: 110px;
+}
+
+#point4 {
+	position: absolute;
+	top: 165px;
+	left: 55px;
+}
+
+#point5 {
+	position: absolute;
+	top: 180px;
+	left: 5px;
+}
+
+#point6 {
+	position: absolute;
+	top: 222px;
+	left: 15px;
+}
+
+#point7 {
+	position: absolute;
+	top: 245px;
+	left: 50px;
+}
+
+#point8 {
+	position: absolute;
+	top: 245px;
+	left: 100px;
+}
+
+#point9 {
+	position: absolute;
+	top: 220px;
+	left: 90px;
+}
