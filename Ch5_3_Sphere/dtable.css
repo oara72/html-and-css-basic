@@ -1,0 +1,105 @@
+/*
+	New Perspectives on HTML and CSS
+	Tutorial 5
+	Case Problem 3
+
+	Dome Table Style Sheet
+	Author: oliver Rodriguez
+	Date:   Dec. 3, 2014.
+*/
+
+/*Styles for dHome*/
+
+table.domeSpecs {
+
+	font-size: 16px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	float: right;
+	border-collapse: collapse;
+	
+	background: url(tableback.png) bottom right no-repeat;
+	background-size:cover;
+
+}
+
+caption {
+	font-size: 18px;
+	letter-spacing: 5px;
+	display: table-caption;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+ td {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+td:first-of-type {
+	background: url(left.jpg) left repeat-y;
+
+}
+td:last-of-type {
+	background: url(right.jpg) right repeat-y;
+}
+
+th {
+	border-bottom: 2px solid gray;
+	background: url(top.jpg) top repeat-x;
+	height: 40px;
+	
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+	letter-spacing: 2px;
+}
+
+th:first-of-type {
+	background: url(topleft.jpg) top left no-repeat,
+				url(top.jpg) top right repeat;
+}
+th:last-of-type {
+	background: url(topright.jpg) top right no-repeat;
+}
+
+tfoot > tr > td {
+	border-top: 2px solid gray;
+	background: url(bottom.jpg) bottom repeat-x;
+	height: 40px;
+}
+
+tfoot > tr > td:first-of-type {
+	background: url(bottomleft.jpg) bottom left no-repeat,
+	            url(bottom.jpg) bottom repeat-x;
+}
+tfoot > tr > td:last-of-type {
+	background: url(bottomright.jpg) bottom right no-repeat;
+}
+tbody > tr > td {
+	height: 50px;
+	border-bottom: 1px dotted;
+}
+
+tbody > tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.6); 
+}
+
+tbody > tr:nth-of-type(even) {
+   background-color: rgba(152, 228, 215, 0.6);
+} 
+
+.firstColumn {
+	width: 22%;
+}
+.middleColumns {
+	width: 28%;
+}
+.lastColumn {
+	width: 22%;
+}
+
