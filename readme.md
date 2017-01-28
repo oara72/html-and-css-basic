@@ -10,6 +10,6 @@ Creating a Web Form. [Tutorial 6](https://github.com/oliver507/html-and-css-basi
 >
 > #### Source:
 >
-> Patrick Carey. New Perspective on HTML and CSS. 6th Edition. Course Technology - Cengage Learning.
+> Patrick Carey. *New Perspective on HTML and CSS*. 6th Edition. Course Technology - Cengage Learning.
 >
 
