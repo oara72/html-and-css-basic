@@ -1,0 +1,28 @@
+/* Add CSS for the Endangered table here 
+	Course: WEB110
+	Date: 
+	Name: Oliver Rodriguez
+	Student Number: W0668948
+*/
+/*Styles for the Endangered Species*/
+
+body {
+
+	font-family: sans-serif;
+}
+
+
+caption {
+	background-color: rgb(157, 158, 252);
+	text-align: center;
+	font-weight: bold;
+}
+
+.endangered {
+	background-color: rgb(255,192,203);
+}
+
+.threatened {
+	background-color: rgb(255,255,224);
+}
+
