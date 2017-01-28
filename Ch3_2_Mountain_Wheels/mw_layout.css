@@ -1,0 +1,150 @@
+﻿/*
+	New Perspectives on HTML and CSS
+	Tutorial 3
+	Case Problem 2
+
+	Mountain Wheels Layout Style
+	Author: Oliver Rodriguez
+	Date:	Oct 22, 2014
+
+	Filename:			mw_layout.css
+	Supporting Files: none
+
+*/
+
+/* Layout styles */
+
+
+body {
+	margin: 0px auto; /*el body queda centrado con auto*/
+	padding: 0px;
+	width: 900px;
+	font-family: Tahoma, Geneva, sans-serif; /* assignment # 5 */
+}
+
+header, footer {
+	margin: 0px auto;
+}
+
+nav {
+	float: left;
+	margin-right: 10px;
+	width: 150px;
+	background-color: rgb(125, 120, 89);   /* assignment # 7 */
+	line-height: 3em;
+	
+}
+
+nav ul a:link {                        /* assignment # 8 */
+	color: #ffffff;
+	text-decoration: none;
+} 
+	
+nav ul li:hover {                       /* assignment # 9 */
+    color: #FFFFE0;
+    background-color: rdg(131, 121, 36);
+    list-style-image: url('wheelmarker.png');
+} 
+
+#leftsection {
+	float: left;
+	margin-right: 15px;
+	width: 450px;
+	font-size: 22px;
+}
+
+#leftsection > p::first-line {   /* assignment # 10 */
+	font-size: 22px;
+	text-transform: uppercase;
+	
+}
+
+ul{  
+list-style-type:none;  
+}  
+
+
+#rightsection {
+	float: left;
+	width: 200px;
+}
+
+#rightsection h1 {
+	font-weight: normal;
+	text-align: center;
+	font-size: 22px;		   /* assignment # 13a */
+	letter-spacing: 3px;
+	font-weight: normal;    /* assignment # 13b */
+	text-align: center;      /* assignment # 13c */    
+}
+
+#rightsection h2 {
+	font-size: 18px;			/* assignment # 13a.a */   
+	text-align: right;    	/* assignment # 13a.b */ 
+	font-weight: normal;   /* assignment # 13a.c */ 
+}
+
+#rightsection p {
+	color: gray;
+	font-size: 14px;
+	text-align: justify;
+}
+#articleheader {
+	float: left;
+	width: 650px;
+	font-size: 18px;            /* assignment # 6 */
+	font-weight: normal;
+	letter-spacing: 7px;
+	text-align: center;
+}
+
+
+#articleheader h1 {
+	margin-bottom: 10px;
+}
+
+h1, h2 {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+blockquote {
+	border: 1px solid black;
+	float: right;
+	padding: 20px;
+	width: 170px;
+   background-color: rgb(131, 121, 36);       /* assignment # 11 */
+   color: #FFFFFF;                             /* assignment # 11b */
+   font-size: 16px;                          /* assignment # 11c */
+   font-family: Comic Sans MS, Times;        /* assignment # 11d */        
+   font-style: italic;                       /* assignment # 11f */
+   
+   
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+	box-shadow:10px 10px 20px #000;
+	-webkit-box-shadow:10px 10px 20px #000;
+	-moz-box-shadow: 10px 10px 20px #000;
+}
+
+
+section p {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+section p.myclass:before, p.myclass:after {     /* assignment # 12 */
+    content: '"';
+}
+
+footer address {
+	border-top: 1px solid black;
+	clear: left;
+	text-align: center;
+	font-size: 16px;                  /* assignment # 14 */           
+	font-style: normal;
+}
+
+
+
