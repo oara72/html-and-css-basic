@@ -1,0 +1,147 @@
+﻿/*
+	New Perspectives on HTML and CSS
+	Tutorial 3
+	Case Problem 3
+
+	Civil War History Layout Style
+	Author: Peter Craft
+	Date:	3/1/2014
+
+	Filename:			cw_layout.css
+	Supporting Files: none
+
+*/
+
+/* Layout styles */
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 1000px;
+	font-family: Palatino Linotype, Book Antigua, Palatino, Serif;  /*assignment #5*/
+}
+
+
+body > header {						/*extra*/
+	background-color: #004492;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: hsla(212, 0%, 0%, 0.4); /*assignment #6a*/
+	font-family: Trebuchet MS, Helvetica, sans-serif; /*assignment #6b*/
+	font-weight: normal; /*assignment #6c*/
+	letter-spacing: 5px;
+	text-indent: 5px; /*assignment #6d*/
+}
+
+body > header > h1 {
+	height: 90px;
+	margin: 0px;
+	width: 100%;
+	color: hsl(212, 100%, 29%); /*assignment #7*/
+}
+
+p {
+	margin: 0px 10px 10px 10px;
+}
+
+nav.horizontal ul {
+	display: block;
+	width: 950px;
+	height: 20px;
+	font-family: Century Gothic MS, sans-serif; /*assignment #8a*/
+	font-size: 14px;	                          /*assignment #8b*/
+	font-weight: bold;                         /*assignment #8c*/
+   letter-spacing: 3px;                         /*assignment #8d*/
+   line-height: 20px;
+}
+
+nav.horizontal ul li {
+	display: block;
+	float: left;
+	text-align: center;
+	width: 150px;
+}
+
+nav.horizontal a:link {
+	color: hsl(212, 100%, 72%);           /*assignment #9*/
+	text-decoration: none;             /*assignment #9*/
+}
+
+nav.horizontal a:hover {  
+    color: hsl(212, 100%, 29%);       /*assignment #9*/
+    text-decoration: none;
+} 
+
+nav.vertical {
+	background-color: hsl(32, 100%, 95%); /*assignment #10*/
+	clear: left;
+	float: left;
+	margin-right: 0px;
+	width: 300px;
+}
+
+nav.vertical > h4 {                    /*assignment #11*/
+	color: hsla(32, 0%, 0%, 0.5);
+	font-size: 18px;
+	text-indent: 15px;
+}
+
+
+nav.vertical ol li {						/*assignment #12*/
+	list-style-type: upper-roman;
+	line-height: 2em;
+	
+}
+
+nav.vertical ol ol li {						/*assignment #12*/
+	list-style-type: upper-alpha;
+	line-height: 2em;
+	
+}
+nav.vertical a:link {
+	color: hsla(212, 100%, 29%, 0.6);	/*assignment #13*/
+	text-decoration: none;                
+}
+
+nav.vertical a:hover {  
+    color: hsla(212, 100%, 29%, 1.0);    /*assignment #13a*/
+    text-decoration: underline;
+} 
+
+section {
+	float: left;
+	width: 700px;
+	background-color: hsl(212, 95%,90%); /*assignment 14*/
+}
+
+article {
+	float: left;
+	width: 400px;
+}
+
+article > p::first-letter {            /*assignment #15*/
+	font-size: 32px;
+}
+
+
+aside {
+	display: block;
+	width: 300px;
+	float: left;
+}
+
+aside img {
+	display: block;
+	width: 200px;
+	margin: 0px auto 10px;
+}
+
+footer {
+	clear: left;
+	width: 1000px;
+	font-size: 10px;					 /*assignment #16*/
+	line-height: 30px;
+	text-align: center;
+}
