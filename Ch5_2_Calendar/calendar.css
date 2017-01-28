@@ -1,0 +1,85 @@
+/*
+	New Perspectives on HTML and CSS
+	Tutorial 5
+	Case Problem 2
+
+	CCC Calendar Table style sheet
+	Author: Oliver Rodriguez
+	Date:   Dec. 2, 2014
+*/
+
+/*Styles for Events in February at the CCC*/
+
+table.calendar {
+	border: 10px outset rgb (153, 0, 153);
+	margin-top: 20px;
+	
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px;
+	width: 650px;
+	
+		background: url(topleft.jpg) top left no-repeat,
+					   url(topright.jpg) top right no-repeat,
+					   url(bottomleft.jpg) bottom left no-repeat,
+					   url(bottomright.jpg) bottom right no-repeat,
+					   url(top.jpg) top left repeat-x,
+					   url(left.jpg) top left repeat-y,
+					   url(right.jpg) top right repeat-y,
+					   url(bottom.jpg) bottom left repeat-x;
+					   
+	
+}
+
+
+table.calendar th, table.calendar td {
+	border: 1px solid gray;
+	border-spacing: 5px;
+	font-size: 8px;
+
+	vertical-align: text-top;
+}
+
+caption {
+	padding-bottom: 10px;
+	font-size: 16px;
+	letter-spacing: 3px;
+	width: 650px;
+	text-align: center;
+}
+
+.week {
+	background-color: rgb(255, 0, 0);
+	color: #FFFFFF;
+	letter-spacing: 5px;
+	height: 5%;
+}
+.weekdays {
+	background-color: rgb(255, 255, 255);
+	width: 14%;  
+}
+
+.weekends {
+	background-color: rgb(255, 232, 232);
+	width: 14%; 
+}
+
+div {
+	-moz-column-count: 2; /* Firefox */
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	column-count: 2;	
+	
+	-moz-column-gap: 20px;
+	-webkit-column-gap: 20px;
+	column-gap: 20px;	
+	
+	-moz-column-rule: 1px solid black;	
+	-webkit-column-rule: 1px solid black;	
+	column-rule: 1px solid black;	
+    
+    -moz-column-width: 300px; /* Firefox */
+	-webkit-column-width: 300px; /* Chrome, Safari, Opera */
+    column-width: 300px;
+
+} 
